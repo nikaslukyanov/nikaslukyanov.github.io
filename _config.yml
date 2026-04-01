@@ -1,0 +1,15 @@
+title:       Nikas Lukyanov
+tagline:     ''
+description: ''
+url:         https://nikaslukyanov.github.io
+baseurl:     ''
+permalink:   pretty
+
+author:
+  name: Nikas Lukyanov
+  url:  https://github.com/nikaslukyanov
+
+plugins:
+  - jekyll-paginate
+
+paginate: 5
