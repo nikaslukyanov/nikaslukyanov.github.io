@@ -5,56 +5,17 @@
 
   <body>
 
-    <div class="sidebar">
-      <div class="sidebar-about">
-        <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-        <p class="lead">{{ site.description }}</p>
+    <div class="container">
+      <div class="sidebar">
+        <a href="{{ site.baseurl }}/" class="brand">{{ site.title }}</a>
+        <nav>
+          <a href="https://github.com/nikaslukyanov" class="nav-item">GitHub</a>
+        </nav>
       </div>
-      <div class="sidebar-about-content">
-        {{ site.about }}
+      <div class="main-content">
+        {{ content }}
       </div>
-      <nav class="sidebar-nav">
-        <a class="sidebar-nav-item" href="https://github.com/nikaslukyanov">GitHub</a>
-      </nav>
     </div>
-
-    <div class="content container">
-      {{ content }}
-    </div>
-
-    <style>
-      .sidebar {
-        position: fixed;
-        top: 0; left: 0; bottom: 0;
-        width: 14rem;
-        padding: 2rem 1.5rem;
-        background-color: #202020;
-        color: rgba(255,255,255,.5);
-        overflow-y: auto;
-        font-family: "PT Sans", Helvetica, Arial, sans-serif;
-        font-size: .875rem;
-      }
-      .sidebar a { color: #fff; }
-      .sidebar-about h1 {
-        color: #fff;
-        margin-top: 0;
-        font-size: 1.5rem;
-        font-weight: 400;
-        letter-spacing: -.025rem;
-      }
-      .sidebar-about h1 a { color: #fff; }
-      .sidebar-about h1 a:hover { text-decoration: none; }
-      .sidebar-about .lead { font-size: .85rem; }
-      .sidebar-about-content { margin: 1.5rem 0; font-size: .85rem; line-height: 1.6; }
-      .sidebar-nav { border-top: 1px solid rgba(255,255,255,.1); padding-top: 1rem; }
-      .sidebar-nav-item { display: block; padding: .25rem 0; color: rgba(255,255,255,.6); }
-      .sidebar-nav-item:hover { color: #fff; text-decoration: none; }
-      .content { margin-left: 14rem; padding: 3rem 2rem; }
-      @media (max-width: 48em) {
-        .sidebar { position: relative; width: 100%; }
-        .content { margin-left: 0; }
-      }
-    </style>
 
   </body>
 </html>
