@@ -13,3 +13,5 @@ plugins:
   - jekyll-paginate
 
 paginate: 5
+
+about: "Columbia student studying how to predict things"
