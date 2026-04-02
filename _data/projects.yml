@@ -1,0 +1,15 @@
+- name: Coil Optimization
+  url: https://github.com/jeremslm/PF_location_optimization
+  bullets:
+    - Optimized poloidal field coil placement for tokamak reactors with bayesian optimization
+
+- name: Custom Tokamak Streamlit
+  url: https://github.com/nikaslukyanov/Interactive-Tokamak-Simulator
+  bullets:
+    - Interactive simulator for tokamak plasma physics
+
+- name: Course Advisor for Columbia University
+  url: https://github.com/Oren-H/AI-Advisor
+  bullets:
+    - RAG-powered course recommendation tool for Columbia students using Langchain
+
