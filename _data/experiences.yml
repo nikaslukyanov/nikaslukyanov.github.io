@@ -1,20 +1,6 @@
-- name: Example Company
-  role: Software Engineer Intern
-  dates: Summer 2025
+- name: Columbia Plasma Physics Lab
+  role: Researcher
+  dates: February 2025 - Now 
   bullets:
-    - Did something impactful here
-    - Built a feature used by X users
-
-- name: Example Company
-  role: Software Engineer Intern
-  dates: Summer 2025
-  bullets:
-    - Did something impactful here
-    - Built a feature used by X users
-
-- name: Example Company
-  role: Software Engineer Intern
-  dates: Summer 2025
-  bullets:
-    - Did something impactful here
-    - Built a feature used by X users
+    - Writing first-author on coil optimization using bayesian methods 
+    - Built a Streamlit app to optimize plasma parameters and to reduce onset of vertical displacement events
