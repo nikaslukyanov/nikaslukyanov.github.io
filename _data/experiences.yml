@@ -1,6 +1,0 @@
-- name: Columbia Plasma Physics Lab
-  role: Researcher
-  dates: February 2025 - Now 
-  bullets:
-    - Writing first-author on coil optimization using bayesian methods 
-    - Built a Streamlit app to optimize plasma parameters and to reduce onset of vertical displacement events

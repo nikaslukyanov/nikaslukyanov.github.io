@@ -93,13 +93,8 @@ p {
 }
 
 .project-list li {
-  border-top: 1px solid #eee;
   padding: .75rem 0;
   font-size: 15px;
-}
-
-.project-list li:last-child {
-  border-bottom: 1px solid #eee;
 }
 
 @media (max-width: 768px) {
